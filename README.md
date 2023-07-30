@@ -14,17 +14,17 @@ The GPS-based real-time buggy tracking system aims to provide an efficient and r
 
 2. Make the following circuit connections:
   
-LCD I2C to NodeMCU
-GND - GND
-VCC - Vin
-SDA - D2
-SCL - D1
+LCD I2C to NodeMCU :
+GND <-> GND
+VCC <-> Vin
+SDA <-> D2
+SCL <-> D1
 
-Neo-6M to NodeMCU
-VCC - 3V3
-RX  - D6
-TX  - D7
-GND - GND
+Neo-6M to NodeMCU :
+VCC <-> 3V3
+RX  <-> D6
+TX  <-> D7
+GND <-> GND
 
 3. Download Arduino IDE from https://www.arduino.cc/en/software 
 4. Open the given the .ino file in Arduino and set up the IDE for nodemcu using the board manager and download mentioned libraries using the library manager
